@@ -1,0 +1,8 @@
+@echo off
+:finddate
+if %date% GEQ 3/15/2017 goto start
+goto finddate
+:start
+start "C:\Users\Michael\Desktop\BatchVirus\FaZeMelon.jpg"
+goto end
+:end
